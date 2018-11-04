@@ -7,7 +7,7 @@ import (
 )
 
 // listCmd represents the list command
-var listCmd = &cobra.Command{
+var hostListCmd = &cobra.Command{
 	Use:   "list",
 	Short: "Ambari Host Add",
 	Long: `A longer description that spans multiple lines and likely contains examples
@@ -22,7 +22,7 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	hostCmd.AddCommand(listCmd)
+	hostCmd.AddCommand(hostListCmd)
 
 	// Here you will define your flags and configuration settings.
 

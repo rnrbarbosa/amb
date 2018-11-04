@@ -21,7 +21,7 @@ import (
 )
 
 // createCmd represents the create command
-var createCmd = &cobra.Command{
+var clusterCreateCmd = &cobra.Command{
 	Use:   "create",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
@@ -36,7 +36,7 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	clusterCmd.AddCommand(createCmd)
+	clusterCmd.AddCommand(clusterCreateCmd)
 
 	// Here you will define your flags and configuration settings.
 

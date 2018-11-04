@@ -23,7 +23,7 @@ import (
 // configurationCmd represents the configuration command
 var configurationCmd = &cobra.Command{
 	Use:   "configuration",
-	Short: "A brief description of your command",
+	Short: "Ambari Cluster Configuration Operations",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 

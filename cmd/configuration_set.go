@@ -21,7 +21,7 @@ import (
 )
 
 // setCmd represents the set command
-var setCmd = &cobra.Command{
+var configSetCmd = &cobra.Command{
 	Use:   "set",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
@@ -36,7 +36,7 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	rootCmd.AddCommand(setCmd)
+	configurationCmd.AddCommand(configSetCmd)
 
 	// Here you will define your flags and configuration settings.
 

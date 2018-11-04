@@ -21,7 +21,7 @@ import (
 )
 
 // offCmd represents the off command
-var offCmd = &cobra.Command{
+var debugOffCmd = &cobra.Command{
 	Use:   "off",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
@@ -36,7 +36,7 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	rootCmd.AddCommand(offCmd)
+	debugCmd.AddCommand(debugOffCmd)
 
 	// Here you will define your flags and configuration settings.
 

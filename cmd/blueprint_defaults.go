@@ -21,7 +21,7 @@ import (
 )
 
 // defaultsCmd represents the defaults command
-var defaultsCmd = &cobra.Command{
+var blueprintDefaultsCmd = &cobra.Command{
 	Use:   "defaults",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
@@ -36,7 +36,7 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	blueprintCmd.AddCommand(defaultsCmd)
+	blueprintCmd.AddCommand(blueprintDefaultsCmd)
 
 	// Here you will define your flags and configuration settings.
 

@@ -21,7 +21,7 @@ import (
 )
 
 // resetCmd represents the reset command
-var resetCmd = &cobra.Command{
+var clusterResetCmd = &cobra.Command{
 	Use:   "reset",
 	Short: "A brief description of your command",
 	Long: `A longer description that spans multiple lines and likely contains examples
@@ -36,7 +36,7 @@ to quickly create a Cobra application.`,
 }
 
 func init() {
-	clusterCmd.AddCommand(resetCmd)
+	clusterCmd.AddCommand(clusterResetCmd)
 
 	// Here you will define your flags and configuration settings.
 
