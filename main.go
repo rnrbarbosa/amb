@@ -1,6 +1,6 @@
 package main
 
-import "github.com/rnrbarbosa/goambari/cmd"
+import "github.com/rnrbarbosa/amb/cmd"
 
 var (
 	// VERSION is set during build
