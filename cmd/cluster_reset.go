@@ -23,7 +23,7 @@ import (
 // resetCmd represents the reset command
 var clusterResetCmd = &cobra.Command{
 	Use:   "reset",
-	Short: "A brief description of your command",
+	Short: "Reset Cluster",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 

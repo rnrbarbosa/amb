@@ -18,8 +18,8 @@ var (
 
 var rootCmd = &cobra.Command{
 	Use:   "amb",
-	Short: "An Ambari Command Line Tool",
-	Long:  `GoAmbari is a command line tool for Cluster Configuration.`,
+	Short: "An Ambari Awesome Command Line Tool",
+	Long:  `amb is a command line tool for Cluster Configuration.`,
 
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
