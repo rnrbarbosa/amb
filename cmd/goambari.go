@@ -17,7 +17,7 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "goambari",
+	Use:   "goAmbari",
 	Short: "An Ambari Command Line Tool",
 	Long:  `GoAmbari is a command line tool for Cluster Configuration.`,
 

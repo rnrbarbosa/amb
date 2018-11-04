@@ -9,7 +9,7 @@ import (
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "GoAmbari show version",
+	Short: "goAmbari version",
 	Long:  `Show GoAmbari version`,
 	Run: func(cmd *cobra.Command, args []string) {
 
