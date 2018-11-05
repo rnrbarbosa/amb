@@ -1,7 +1,10 @@
+
 # Project Vision
 
 Ambari provides a REST api to manage Hadoop Clusters, in particular for Hortonworks Data Platform
 and Hortonworks Data Flow.
+
+![amb-cli](amb-cli.png)
 
 But similar to other famous APIs, like AWS, GCP and Azure and also other software components, it does
 not provide any command line utility, very useful for automation tasks of devops atcivities.
